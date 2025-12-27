@@ -1,36 +1,4 @@
 
-// export default function AuditLog({ items }){
-//   return (
-//     <div className="card p-4">
-//       <h3 className="card-title">Detailed Audit Log</h3>
-//       <div className="mt-3 overflow-x-auto">
-//         <table className="table">
-//           <thead>
-//             <tr>
-//               <th className="th">User</th>
-//               <th className="th">Action</th>
-//               <th className="th">Target</th>
-//               <th className="th">Timestamp</th>
-//               <th className="th">Details</th>
-//             </tr>
-//           </thead>
-//           <tbody>
-//             {items.map(row => (
-//               <tr key={row.id}>
-//                 <td className="td">{row.user}</td>
-//                 <td className="td">{row.action}</td>
-//                 <td className="td">{row.target}</td>
-//                 <td className="td">{new Date(row.at).toLocaleString()}</td>
-//                 <td className="td">{row.details || '—'}</td>
-//               </tr>
-//             ))}
-//           </tbody>
-//         </table>
-//       </div>
-//     </div>
-//   )
-// }
-
 export default function AuditLog({ items }) {
   // Helper to color-code medical actions
   const getActionBadge = (action) => {

@@ -1,37 +1,4 @@
 
-// export default function HeaderBar({ patient, onSave, onDiscard, onLock }){
-//   return (
-//     <div className="card p-4 flex flex-wrap items-center justify-between gap-3">
-//       <div>
-//         <div className="text-xl font-semibold text-slate-800">{patient.name} <span className="text-slate-500 text-sm">(ID: {patient.id})</span></div>
-//         <div className="text-sm text-slate-600">DOB: {patient.dob} · Sex: {patient.sex} · Blood: {patient.bloodGroup} · Status: <span className="badge badge-yellow">{patient.status}</span></div>
-//       </div>
-//       <div className="flex items-center gap-2">
-//         <button className="btn btn-primary" onClick={onSave}>Save</button>
-//         <button className="btn btn-secondary" onClick={onDiscard}>Discard</button>
-//         <button className="btn btn-danger" onClick={onLock}>Lock Record</button>
-//       </div>
-//     </div>
-//   )
-//}
-// export default function HeaderBar({ patient, onSave, onDiscard }) {
-//   return (
-//     <div className="card p-4 flex flex-wrap items-center justify-between gap-3">
-//       <div>
-//         <div className="text-xl font-semibold text-slate-800">
-//           {patient.name} <span className="text-slate-500 text-sm">(ID: {patient.id})</span>
-//         </div>
-//         <div className="text-sm text-slate-600">
-//           DOB: {patient.dob} · Sex: {patient.sex} · Blood: {patient.bloodGroup} · Status: <span className="badge badge-yellow">{patient.status}</span>
-//         </div>
-//       </div>
-//       <div className="flex items-center gap-2">
-//         <button className="btn btn-primary" onClick={onSave}>Save</button>
-//         <button className="btn btn-secondary" onClick={onDiscard}>Discard</button>
-//       </div>
-//     </div>
-//   )
-// }
 export default function HeaderBar({ patient, onSave, onDiscard }) {
   
   // Clinical Status Color Logic

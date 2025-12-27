@@ -1,40 +1,4 @@
 
-// export default function AccessManagement({ doctors, onChange }){
-//   function updateAccess(id, access){
-//     onChange(id, access)
-//   }
-
-//   return (
-//     <div className="card p-4">
-//       <h3 className="card-title">Doctor Access Management</h3>
-//       <div className="mt-3">
-//         <table className="table">
-//           <thead>
-//             <tr>
-//               <th className="th">Doctor</th>
-//               <th className="th">Role</th>
-//               <th className="th">Access</th>
-//             </tr>
-//           </thead>
-//           <tbody>
-//             {doctors.map(d => (
-//               <tr key={d.id}>
-//                 <td className="td">{d.name}</td>
-//                 <td className="td">{d.role}</td>
-//                 <td className="td">
-//                   <select className="select" value={d.access} onChange={e=>updateAccess(d.id, e.target.value)}>
-//                     <option value="read">Read</option>
-//                     <option value="write">Write</option>
-//                   </select>
-//                 </td>
-//               </tr>
-//             ))}
-//           </tbody>
-//         </table>
-//       </div>
-//     </div>
-//   )
-// }
 
 export default function AccessManagement({ doctors, onChange }) {
   function updateAccess(id, access) {

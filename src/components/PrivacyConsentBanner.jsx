@@ -1,22 +1,4 @@
 
-// export default function PrivacyConsentBanner({ consent, onRequestConsent, onViewConsent }){
-//   return (
-//     <div className="card p-4 flex items-center justify-between">
-//       <div>
-//         <span className="font-medium">Consent:</span> {consent?.status ? (
-//           <span className="badge badge-green">Granted for {consent?.grantedTo} until {consent?.end}</span>
-//         ) : (
-//           <span className="badge badge-yellow">Not Granted</span>
-//         )}
-//       </div>
-//       <div className="flex gap-2">
-//         <button className="btn btn-secondary" onClick={onViewConsent}>View Consent</button>
-//         {/* <button className="btn btn-primary" onClick={onRequestConsent}>Request Consent</button> */}
-//       </div>
-//     </div>
-//   )
-// }
-
 export default function PrivacyConsentBanner({ consent, onRequestConsent, onViewConsent }) {
   const isGranted = consent?.status;
 
