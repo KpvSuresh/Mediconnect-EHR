@@ -2,9 +2,9 @@
 import { useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { getBundleById } from '../data/db'
-import AccessManagement from '../components/AccessManagement'
-import ConsentHistory from '../components/ConsentHistory'
-import AuditLog from '../components/AuditLog'
+import AccessManagement from '../components1/AccessManagement'
+import ConsentHistory from '../components1/ConsentHistory'
+import AuditLog from '../components1/AuditLog'
 
 export default function AccessAudit(){
   const { id } = useParams()

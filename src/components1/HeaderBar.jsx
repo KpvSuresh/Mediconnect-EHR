@@ -45,7 +45,7 @@ export default function HeaderBar({ patient, onSave, onDiscard }) {
             </div>
             <span className="text-slate-200">|</span>
             <div className="flex items-center gap-1.5">
-              <span className="text-gray-950">SEX</span>
+              <span className="text-gray-950">Gender</span>
               <span className="text-slate-700">{patient.sex}</span>
             </div>
             <span className="text-slate-200">|</span>
